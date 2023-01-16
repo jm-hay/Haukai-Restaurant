@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+                
+        <!--Information and Description-->
+        <meta name="description" content="Haukai Restaurant Offical Website and Booking"> 
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+                        
+        <!--Haukai Homepage Title-->    
+        <title>Haukai Restaurant Homepage</title> 
+                        
+        <!--CSS Styling sheet-->
+        <link rel="stylesheet" href="css/haukai-css.css">
+                
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+                        
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+                        
+        <!--Script taken from Open Polytechnic, 2022-->
+        <script>
+            function myFunction() {
+                var x = document.getElementById("demo");
+                if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+                } else { 
+                x.className = x.className.replace(" w3-show", "");
+                }
+            }
+        </script>
+    </head>
+                
+    <body>
+        <!--Main header used on all pages of the website-->
+        <div class="image">
+            <p class="header">Haukai Restaurant</p>
+        </div>
+                        
+        <!--Navigation and links to other pages (full screen)--> 
+        <div class="navbar">
+            <a href="./index.html">Home</a>
+            <a href="./our-menu.html">Our Menu</a>
+            <a href="./bookings.html">Bookings</a>
+            <a href="./about-us.html">About Us</a>
+            <a href="./gifts-and-merch.html">Gifts and Merch</a>
+            <a href="./staff-area.html">Staff Area</a>
+        </div>
+                          
+        <!--Navigation and links to other pages (small screen)--> 
+        <div id="demo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium">
+            <a href="http://127.0.0.1:5500/our-menu.html" class="w3-bar-item w3-button w3-padding-16">Our Menu</a>
+            <a href="http://127.0.0.1:5500/bookings.html" class="w3-bar-item w3-button w3-padding-16">Bookings</a>
+            <a href="http://127.0.0.1:5500/about-us.html" class="w3-bar-item w3-button w3-padding-16">About Us</a>
+            <a href="http://127.0.0.1:5500/gifts-and-merch.html" class="w3-bar-item w3-button w3-padding-16">Gifts and Merch</a>
+            <a href="http://127.0.0.1:5500/staff-area.html" class="w3-bar-item w3-button w3-padding-16">Staff Area</a>
+        </div>
+
+        <main>
+            <h1>Purchasing/Hokonga</h1>
+            <h1>Thank you for your support! Mauruuru koe mo to tautoko!</h1> 
+            <div style="background-color:#eee"> <!--changes the background color-->
+            
+            <!--List of purchases-->    
+            <div class="center">
+                <h3><b>Your purchases are:</b></h3>
+                <p>*A list of purchases would be summarised here.</p>
+            </div>
+
+            <!--Payment Method-->
+            <div class="center">
+                <h3><b>Select your choice of payment:</b></h3>
+                <p>*List creditcard companies and online payment options.</p>
+            </div>
+        </main>
+
+        <!-- And here is our main footer that is used across all the pages of our website -->
+        <footer class="footer">
+            <p>©Copyright 2022 by Haukai Restaurant. All rights reserved.</p>     <!--Legal Notice-->
+            <p>Email: haukai@restaurant.co.nz</p>                                 <!--Haukai email address and phone number-->
+            <p>Ph. (+64) 09 401 4019 </p>                                         <!--Haukai phone number--> 
+            <p>1 Island Street, Kerikeri, Bay of Islands</p>                      <!--Haukai address--> 
+            <p>Follow Us !!!</p> 
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">Facebook</a>    <!--Haukai facebook account--> 
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a>  <!--Haukai instagram account--> 
+            <a href="https://www.tiktok.com/" target="_blank" rel="noopener noreferrer">Tiktok</a>        <!--Haukai tiktok account-->
+        </footer>
+    </body>
+</html>
