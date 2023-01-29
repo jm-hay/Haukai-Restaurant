@@ -1,3 +1,57 @@
+/*Assignment 3 Flexboxes*/
+
+/*Flexbox 1 for index images*/ /*From W3 Schools, 2023*/
+.flex-container1 {
+  display: flex;
+  background-color: #f5c3c3;
+}
+
+.flex-container1 > div {
+  background-color: rgb(223, 230, 236);
+  color: rgb(19, 18, 18);
+  width: 350px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 20px;
+}
+
+/*Flexbox 2 for Photo gallary in Bookings*/ /*From W3 Schools, 2023*/
+.flex-container2 {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: DodgerBlue;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.flex-container2 > div {
+  background-color: #f1f1f1;
+  width: 300px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+/*Flexbox 3 for Te Reo terms in About Us*/ /*From W3 Schools, 2023*/
+.flex-container3 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(194, 243, 179);
+    
+}
+
+.flex-container3 > div {
+  background-color: #f1f1f1;
+  width: 300px;
+  margin: auto;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
 /*Border box code */
 * {
     box-sizing: border-box;
